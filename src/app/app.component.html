@@ -1,0 +1,13 @@
+<h1>Hello !</h1>
+<p>
+  Hit button to connect
+</p>
+<ng-container *ngFor="let msg of data;let i = index">
+{{i}} {{msg}}<br>
+</ng-container>
+
+<br>
+<br>
+<br>
+
+<button (click)="onClick()">Connect</button>
